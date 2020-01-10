@@ -22,4 +22,5 @@ urlpatterns = [
     path('',views.form_demo1,name="demo1"),
     path('webpage/',views.form_demo2,name="demo2"),
     path('access/',views.form_demo3,name="demo3"),
+    path('topics/',views.topics,name="topics"),
 ]
